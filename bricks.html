@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>THE BRICKS-Amel Lozic</title>
+    <script type="application/javascript" src="java/bricks.js"></script>
+	<script src="java/jQuery.js"></script>
+	<script src="java/swalScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/still.css">
+</head>
+<body onLoad="drawIt()">
+        <div id="title" onClick="drawIt()">
+			<a id="demo" onClick="drawIt()" class="gumbText"></a>
+           <h2> THE BRICKS</h2>
+		</div>
+		<div class ="wrapper">
+			<div id="container" >
+				<canvas id="canvas" width="600" height="600"></canvas>	
+			</div>
+		</div>
+		<div id="scoreContainer">
+			<div id="score">
+				<a class="score">SCORE:</a>
+			</div>
+			<div id="points">
+				<a><mark id="tocke">0</mark></a>
+				<p>TIME: <mark id="cas">00:00</mark></p>
+			</div>
+		</div>
+</body>
+</html>
